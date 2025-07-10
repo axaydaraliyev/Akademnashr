@@ -10,10 +10,12 @@
 </head>
 <body>
     <!-- Header -->
-    <header class="header">
+    <header class="header" style="display: none;">
         <div class="container header-container">
+
             <a href="index.html">
                 <img 
+                class="header-logo"
                 src="./image/logo.svg" 
                 data-aos="fade-down-right"
                 data-aos-duration="1000"
@@ -25,7 +27,7 @@
 
             <!-- Links -->
             <div class="header-links-wrapper">
-                <nav>
+                <nav class="header-nav">
                     <ul class="header-links">
                         <li class="header-link" data-aos="fade-down" data-aos-duration="1000" >
                             <a href="#">Bosh Sahifa</a>
@@ -42,15 +44,22 @@
                     </ul>
                 </nav>
 
-                <a class="orange-button" data-aos="fade-down-left" data-aos-duration="1000" href="#">Ro'yhatdan o'tish</a>
+                <a class="orange-button header-button" data-aos="fade-down-left" data-aos-duration="1000" href="#">Ro'yhatdan o'tish</a>
             </div>
+
+            <a href="#">
+                <svg    
+                class="burger-menu" 
+                data-aos="fade-down-left" data-aos-duration="1000"  
+                width="32p" height="32px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14 12.85L1 12.85L1 14.15L14 14.15L14 12.85ZM14 8.85002L1 8.85002L1 10.15L14 10.15L14 8.85002ZM1 4.85003L14 4.85003L14 6.15003L1 6.15002L1 4.85003ZM14 0.850025L1 0.850025L1 2.15002L14 2.15002L14 0.850025Z" fill="currentColor" fill-rule="evenodd"             clip-rule="evenodd"></path></svg>
+            </a>
         </div>
     </header>
 
     <!-- Main -->
     <main>
         <!-- Hero -->
-        <section class="hero">
+        <section class="hero" style="display: none;>
             <div class="container hero-container">
                 <div class="hero-content">
                     <div class="orange-line hero-line"></div>
@@ -61,7 +70,7 @@
                         yozilgan bo'lib, ularga kitobda ko'rsatilgan QR kod orqali o'tish 
                         mumkin
                     </p>
-                    <a class="orange-button" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600" href="#">Buyurtma berish</a>
+                    <a class="orange-button hero-button" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600" href="#">Buyurtma berish</a>
                 </div>
                 <img class="hero-img" src="./image/python-book.jpg"
                  data-aos="fade-left"
@@ -74,8 +83,8 @@
         </section>
 
         <!-- Nega aynan Akademnashr? -->
-        <section class="why">
-            <div class="container">
+        <section class="why" style="display: none;>
+            <div class="container why-container">
                 <div class="orange-line why-line" data-aos="zoom-in" data-aos-duration="1500"></div>
                 <h1 class="why-title" data-aos="zoom-in" data-aos-duration="1500" >
                     Nega aynan <br>
@@ -118,7 +127,7 @@
         </section>
 
         <!-- CTA -->
-        <section class="cta container">
+        <section class="cta container" ">
             <!-- Content -->
             <div class="cta-content">
                 <h2 class="cta-title" data-aos="flip-up" data-aos-duration="1500" >Bolalar kitoblari uchun ajoyib aksiya!</h2>
@@ -139,7 +148,7 @@
     </main>
 
     <!-- Footer -->
-    <footer class="footer">
+    <footer style="display: none;" class="footer">
         <div class="container">
             <!-- TOP -->
             <div class="footer-top">
@@ -223,4 +232,3 @@
     </script>
 </body>
 </html>
-
