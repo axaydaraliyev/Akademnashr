@@ -110,6 +110,10 @@ body{
     justify-content: space-between;
 }
 
+.hero-content {
+    max-width: 387px;
+    width: 100%;
+}
 
 .hero-title {
     font-size: 40px;
@@ -299,6 +303,15 @@ body{
     .cta-img {
         position: static;
     }    
+
+    .footer-bottom {
+        display: flex; 
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 }
 
 @media (max-width: 920px) {
@@ -313,6 +326,11 @@ body{
         flex-direction: column;
         align-items: start;
     } 
+
+    .cta-content {
+        max-width: 320px;
+        width: 100%;
+    }
 }
 
 @media (max-width: 890px) {
@@ -347,6 +365,11 @@ body{
     .hero-title {
         font-size: 30px;
     }
+
+    .cta-img {
+        width: 340px;
+        height: 340px;
+    }
 }
 
 @media (max-width:500px) {
@@ -360,6 +383,9 @@ body{
         width: 310px;
         height: 350px;
     }
+    .cta-title {
+        font-size: 30px;
+    }
 }
 
 @media (max-width:420px) {
@@ -371,6 +397,10 @@ body{
     .hero-button {
         width: 155px;
         font-size: 13px;
+    }
+    .cta-img {
+        width: 300px;
+        height: 300px;
     }
 }
 
@@ -420,5 +450,40 @@ body{
         justify-content: center;
         align-items: center;
         text-align: center;
+    }
+
+    .hero-content {
+        max-width: 260px;
+        width: 100%;
+    }
+
+    .cta-title {
+        font-size: 20px;
+    }
+    .cta-text {
+        font-size: 15px;
+        text-align: start;
+    }
+
+    .cta-img {
+        width: 220px;
+        height: 220px;
+    }
+
+    .cta-button {
+        width: 155px;
+        font-size: 13px;
+    }
+
+    .footer-top {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .socials {
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
     }
 }
