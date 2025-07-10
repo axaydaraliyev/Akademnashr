@@ -38,7 +38,11 @@ body{
 }
 
 .orange-button:hover{
-    color: rgba(255, 255, 255, 0.459);
+    background-color: white;
+    color: #ff7500;
+    border: 2px solid #ff7500;
+    transition: 0.1s ease;
+
 }
 
 /* Button */
@@ -47,6 +51,7 @@ body{
     background-color: #ff7500;
     color: white;
     text-decoration: none;
+    border: 2px solid #ff7500;
     padding: 12px 24px;
     border-radius: 4px;
 }
