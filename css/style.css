@@ -1,3 +1,31 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/') format('woff2'),
+        url('../fonts/Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Medium.woff2') format('woff2'),
+        url('../fonts/Roboto-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('../fonts/RobotoCondensed-Bold.woff2') format('woff2'),
+        url('../fonts/RobotoCondensed-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 *{
     padding: 0;
     margin: 0;
@@ -467,7 +495,7 @@ body{
 
     .cta-img {
         width: 220px;
-        height: 220px;
+        height: 200px;
     }
 
     .cta-button {
@@ -485,5 +513,29 @@ body{
         display: flex;
         justify-content: space-between;
         gap: 50px;
+    }
+}
+
+@media (max-width:390px) {
+    .hero-img {
+        width: 220px;
+        height: 220px;
+    }
+
+    .why-title{
+        font-size: 30px;
+    }
+    .card {
+        width: 180px;
+    }
+
+    .cta-img {
+        width: 170px;
+    }
+}
+
+@media (max-width:350px) {
+    .footer-links {
+        width: 120px;
     }
 }
